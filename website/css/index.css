@@ -30,8 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	padding: 1rem;
-	background-color: black;
+	background-color: #FFF;
+	border: 9.2px solid black;
+	font-family: 'Roboto', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -55,63 +56,270 @@ html {
 }
 
 .container {
-	max-width: 1150px;
+	/* max-width: 1150px; */
 	margin: 0 auto;
 	font-size: 2rem;
 }
 
+
+h1,h2,h3,h4 {
+	margin: 20px 0;
+}
+
 #headerimg {
-	background-image: url("../images/roberto-nickson-YCW4BEhKluw-unsplash.jpg");
+	background-image: url("../images/bikes99.jpg");
 	/* max-width: 2500px; */
 	height: 100vh;
 	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: .9;
+	/* background-repeat: no-repeat; */
+	/* background-position-y: 0%; */
+	
 }
 
 header {
 display: flex;
 justify-content: center;
 	/* margin: 0 auto; */
-	background-size: cover;
-	background-repeat: no-repeat;
+	/* background-size: cover;
+	background-repeat: no-repeat; */
 	/* height: 1200px; */
-}
+	padding-left: 2%;
 
-h1 {
-	font-size: 4rem;
-}
-
-h1,h2,h3,h4 {
-	margin: 20px 0;
-}
-nav {
 	
-	justify-content: space-between;
-	/* color: white; */
-	background-color: white;
+	flex-direction: column;
+	align-items: center;
+	
+	
 }
 
 
+header h1 {
+	padding-top: 2.8rem;
+	font-family: 'Coda Caption', sans-serif;
+	color: #fff;
+	font-size: 5.5rem;
+	text-shadow: #000 .5px 0 .5px;
+	margin-bottom: 1%;
+	padding-bottom: 0;
+	margin-top: 2.3%;
+	width: 28%; 
+	text-align: center;
+	letter-spacing: .6rem;
+	line-height: 4rem;
+	
+}
 
-ul {
+header h2 {
+	margin-top: 10px;
+	color: #fff;
+	font-size: 2rem;
+	font-family: 'Coda Caption', sans-serif;
+	text-shadow: #000 .5px 0 .5px;
+	letter-spacing: .2rem;
+}
+
+header img {
+	margin: 0;
+	padding: 0;
+	width: 50px;
+}
+
+.bloodred {
+	color: rgb(253, 1, 1);
+	text-shadow: #eee .5px 0 .5px;
+}
+
+nav {
+	justify-content: space-between;
+	background-color: #FFF;
+	letter-spacing: .3rem;
+	font-weight: 600;
+	
+}
+
+
+nav ul {
 	display: flex; 
 	justify-content: center;
+	font-size: 1.8rem;
 }
 
 ul li {
 	padding: 1.5rem 2%;
+	
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000;
+
+}
+
+nav ul li a:hover {
+	/* text-decoration-line: underline;
+	text-decoration-color: red; */
+	border-bottom: 3.5px solid red;
 }
 
 
 .main-content {
 	padding-left: 2%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main{
+	background-color: #FFF;
+	padding: 2% 5%;
+}
+
+#locations {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	align-items: center;
+margin-bottom: 10%;
+
+}
+
+main h1 {
+	font-size: 3.5rem;
+	margin-top: 6%;
+	margin-bottom: 8%;
+	/* text-decoration: underline;
+	text-decoration-color: red; */
+	/* text-decoration-thickness: 4px; */
+	border-bottom: 4px solid red;
+  display: inline-block;
+  line-height: 3.5rem;
+	
+}
+
+main h2 {
+	font-size: 3.2rem;
+	margin-left: 2%;
+	margin-bottom: 8%;
+}
+
+main h3 {
+	font-size: 1.8rem;
+}
+
+
+main p {
+	line-height:2.3rem;
+	font-size: 1.4rem;
+	
 }
 
 footer {
 	display: flex;
 	justify-content: center;
+	background-color: #fff;
+	color: #000;
 }
 
 footer p {
-	padding: 2rem;
+	padding: 4rem;
+	font-size: 1.5rem;
+	color: #555;
+
 }
+
+
+
+main img {
+	width: 100%;
+	margin-right: 2%; 
+	margin-bottom: 12%;
+}
+
+
+
+.location1d, .location2d {
+	display: flex;
+	
+	flex-flow: column;
+	align-items: center;
+	margin-bottom: 25%;
+}
+
+main ul {
+	display: flex; 
+	font-size: 2.5rem;
+	
+}
+main ul li {
+	padding-left: 0;
+	margin-right: 2%;
+	display: block;
+
+}
+
+main ul li a {
+	text-decoration: none;
+	color: #000;
+
+}
+
+main ul a.active {
+	/* text-decoration: underline; */
+	border-bottom: 2px solid #000;
+	/* line-height: rem; */
+  /* display: inline-block; */
+  /* line-height: 3.5rem; */
+
+  
+}
+
+.menutitle {
+	margin-bottom: 4%;
+	
+}
+
+.menuoptions {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	margin-bottom: 50%;
+	
+}
+
+/* .stay {
+	margin-top: 0;
+	
+} */
+
+.menuoptions div {
+	margin: 10% 0;
+}
+
+figure.full{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-flow: column;
+	padding-bottom: 3%;
+}
+
+.full img {
+	width: 70px;
+	margin: 0;
+}
+
+.full h2 {
+	margin:0;
+	font-family: 'Coda Caption', sans-serif;
+	
+}
+
+@media only screen and (min-width: 500px) {
+	
+
+	} 
