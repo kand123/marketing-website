@@ -156,12 +156,6 @@ h4 {
   margin: 20px 0;
 }
 
-/* .border {
-	border: 5px solid black;
-} */
-
-
-/* header styling */
 
 #headerimg {
   background-image: url("../images/bikes99.jpg");
@@ -169,15 +163,12 @@ h4 {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  /* background-repeat: no-repeat;
-  background-size: cover; */
   opacity: 0.9;
 }
 
 header {
   display: flex;
   justify-content: center;
-  /* padding-left: 0%; */
   flex-direction: column;
   align-items: center;
   visibility: hidden;
@@ -256,33 +247,6 @@ nav {
 	visibility: hidden;
 }
 
-/* nav {
-  justify-content: space-between;
-  background-color: #fff;
-  letter-spacing: 0.3rem;
-  font-weight: 600;
-}
-
-nav ul {
-  display: flex;
-  justify-content: center;
-  font-size: 1.8rem;
-}
-
-ul li {
-  padding: 1.5rem 2%;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #000;
-}
-
-nav ul li a:hover {
-  border-bottom: 3.5px solid red;
-} */
-
-/* main styling */
 
 .main-content {
   padding-left: 2%;
@@ -440,7 +404,6 @@ footer p {
   font-size: 1.5rem;
   color: #555;
 }
-
 
 
 /* Media query for single breakpoint at 500px */
