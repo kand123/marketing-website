@@ -48,4 +48,9 @@ We will be using git throughout the semester.  Each project much be forked and 
 
 - [ ] When you have completed the website, submit your repository URL
 
+
+
+
 The URL you used for layout is: [https://www.alpinemodern.com/](https://www.alpinemodern.com/)
+
+Where my website is deployed and can be viewed on the web: [https://epic-carson-5fc817.netlify.com](https://epic-carson-5fc817.netlify.com)
