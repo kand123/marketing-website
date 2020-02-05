@@ -441,6 +441,11 @@ footer p {
   color: #555;
 }
 
+
+
+/* Media query for single breakpoint at 500px */
+
+
 @media only screen and (min-width: 500px) {
   .menuoptions {
     display: grid;
@@ -464,13 +469,10 @@ footer p {
 	margin-bottom: 5%;
   }
 
-
-
   main img {
 	margin-bottom: 12%;
 	width: 100%;
   }
-
 
   nav {
 	  visibility: visible;
